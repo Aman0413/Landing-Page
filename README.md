@@ -30,7 +30,7 @@ This project is a modern, responsive landing page created to showcase the capabi
 ## Figma Design
 
 The design of this landing page was inspired by the following Figma design:
-[Your Figma Design Link](https://www.figma.com/community/file/1145991068621514311)
+[Figma Design Link](https://www.figma.com/community/file/1145991068621514311)
 
 ## Running the Project Locally
 
