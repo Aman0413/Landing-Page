@@ -74,7 +74,8 @@ function Faq() {
           ))}
         </div>
       </div>
-      <div className="pb-10  flex items-center justify-center">
+
+      <div className="py-10  flex items-center justify-center">
         <Image src={img1} alt="imgage" className="w-full" />
       </div>
     </div>

@@ -62,7 +62,7 @@ function Footer() {
             <Image src={img1} alt="logo" className="" />
             <span className="font-bold text-xl">Uifry</span>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 text-text-primary">
             <span>
               <MdMail className="text-orange-primary" />
             </span>
@@ -79,27 +79,33 @@ function Footer() {
         <div className="text-sm flex  flex-col space-y-2">
           <div className="text-xl font-semibold">Links</div>
           {links.map((link) => (
-            <span key={link.id}>{link.title}</span>
+            <span key={link.id} className="text-text-primary">
+              {link.title}
+            </span>
           ))}
         </div>
 
         <div className="text-sm flex  flex-col space-y-2">
-          <div className="text-xl font-semibold">Legal</div>
+          <div className="text-xl font-semibold ">Legal</div>
           {legal.map((item) => (
-            <div key={item.id}>{item.title}</div>
+            <div key={item.id} className="text-text-primary">
+              {item.title}
+            </div>
           ))}
         </div>
 
         <div className="text-sm flex flex-col space-y-2">
           <div className="text-xl font-semibold">Links</div>
           {product.map((item) => (
-            <div key={item.id}>{item.title}</div>
+            <div key={item.id} className="text-text-primary">
+              {item.title}
+            </div>
           ))}
         </div>
 
         <div className="text-sm flex flex-col items-center md:items-start space-y-2">
           <div className="text-xl font-semibold">Newsletter</div>
-          <span>Stay Up To Date</span>
+          <span className="text-text-primary">Stay Up To Date</span>
           <div className="flex space-x-1">
             <input
               type="email"
@@ -113,8 +119,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="bg-gray-300 h-[1px] mt-10"></div>
-      <div className="text-xs text-center p-8">
+      <div className="bg-text-primary h-[1px] mt-10"></div>
+      <div className="text-xs text-center p-8 text-text-primary">
         Copyright 2022 uifry.com all rights reserved
       </div>
     </div>

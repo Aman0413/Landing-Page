@@ -19,7 +19,7 @@ function HeroSection() {
             <h1 className="text-6xl font-bold">
               Make The Best Financial Decisions
             </h1>
-            <div>
+            <div className="text-text-primary">
               Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </div>

@@ -17,6 +17,7 @@ module.exports = {
         "black-primary": "#000000",
         "white-primary": "#ffffff",
         "orange-primary": "#FF5555",
+        "text-primary": "rgb(75 85 99)",
       },
     },
   },
