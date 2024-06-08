@@ -14,22 +14,21 @@ function Navbar() {
 
   return (
     <div className="flex justify-between">
-      <div className="flex flex-col md:flex-row space-x-8">
+      <div className="flex flex-col md:flex-row space-x-8 ">
         <div className="logo">
           <Image src={logo} alt="logo" />
         </div>
-        <ul
-          className={`
-            hidden md:flex items-center gap-6  w-screen md:w-[100%]`}
-        >
-          <li className="font-semibold text-orange-primary">Home</li>
-          <li>About Us</li>
-          <li>Pricing</li>
-          <li>Features</li>
-        </ul>
+        <div className={`${setShowMenu ? "block " : "hidden"}  hidden md:flex`}>
+          <ul className="flex items-center gap-6">
+            <li className="font-semibold text-orange-primary">Home</li>
+            <li>About Us</li>
+            <li>Pricing</li>
+            <li>Features</li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <div className="block md:hidden" onClick={handleClick}>
+      <div className="">
+        <div className="block md:hidden " onClick={handleClick}>
           <IoReorderThreeOutline className="text-3xl" />
         </div>
         <button className="hidden md:block bg-black-primary text-white-primary px-6 py-3 text-sm">

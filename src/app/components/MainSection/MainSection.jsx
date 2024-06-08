@@ -114,17 +114,17 @@ function MainSection() {
         </div>
       </div>
 
-      <div>
+      <div className="mt-14">
         <div className=" flex justify-center items-center flex-col">
           <h2 className="uppercase text-text-primary">testimonial</h2>
           <h1 className="text-3xl font-bold ">What Our Users Say About Us?</h1>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex flex-col md:flex-row items-center">
           <div className="">
             <Image src={img4} alt="image" />
           </div>
-          <div className="flex flex-col w-[60%] space-y-4">
+          <div className="flex flex-col md:w-[60%] space-y-4">
             <div className="font-bold text-2xl ">
               The Best Financial Accounting App Ever!
             </div>
@@ -142,7 +142,6 @@ function MainSection() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }

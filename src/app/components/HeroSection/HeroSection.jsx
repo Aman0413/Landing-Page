@@ -8,12 +8,10 @@ import Image from "next/image";
 
 function HeroSection() {
   return (
-    <div className="p-2 ">
-      <div className="-z-30  relative top-56 gradient w-40 h-40  blur-2xl rounded-full">
-        aman
-      </div>
+    <div className="p-2">
+      <div className="-z-30  absolute top-56 gradient w-40 h-40  blur-2xl rounded-full"></div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between  ">
+      <div className="flex flex-col md:flex-row items-center justify-between  mt-16">
         <div className="left md:w-[50%]  p-2 flex flex-col space-y-10 ">
           <div className="flex flex-col gap-4">
             <h1 className="text-6xl font-bold">
@@ -39,6 +37,7 @@ function HeroSection() {
             </div>
           </div>
           <div>
+            <div className="-z-30  absolute right-24 gradient w-40 h-40  blur-2xl rounded-full"></div>
             <Image src={img2} alt="phone-image" className="w-96" />
           </div>
         </div>
